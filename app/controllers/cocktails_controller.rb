@@ -5,6 +5,8 @@ class CocktailsController < ApplicationController
   end
 
   def show
+    #detalhes de um cocktail, preciso achar o cocktail que eu quero mostrar
+    @cocktail = Cocktail.find(params[:id])
   end
 
   def create
