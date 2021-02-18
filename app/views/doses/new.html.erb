@@ -1,4 +1,4 @@
-<h1>CRIE UMA NOVA DOSE</h1>
+<h1>CRIE UMA NOVA DOSE PARA <%= @cocktail.name.upcase %></h1>
 
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.input :description %>
