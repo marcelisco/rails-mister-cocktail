@@ -14,3 +14,8 @@ ingredients = JSON.parse(ingredients_hash)
 ingredients["drinks"].each do |ingredient|
   Ingredient.create(name: ingredient["strIngredient1"])
 end
+
+Cocktail.create(name: "caipirinha")
+Cocktail.create(name: "mojito")
+Cocktail.create(name: "fitzgerald")
+Cocktail.create(name: "água com")
